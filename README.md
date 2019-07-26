@@ -39,14 +39,14 @@ To get started with the building process, you'll need to get familiar with [Git 
 To initialize your local repository, use a command like this:
 
 ```bash
-    repo init -u git://github.com/DotOS/manifest.git -b dot-p
+    repo init -u https://github.com/Boos4721/manifest-1.git -b dot-p
 ```
 
 Then to sync up:
 ================
 
 ```bash
-    repo sync -c -jx --force-sync --no-clone-bundle --no-tags
+    repo sync -c -j16 --force-sync --no-clone-bundle --no-tags
 ```
 
 Additionally, you can define the number of parallel download repo should do:
